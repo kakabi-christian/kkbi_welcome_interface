@@ -1,0 +1,167 @@
+body
+{
+    background: linear-gradient(white, white 15% rgb(87, 141, 87));
+}
+.connectez
+{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+.connecter
+{
+    border: 1px white solid;
+    border-radius: 5px;
+    box-shadow: black 1px 5px 4px 5px ;
+    height:400px ;
+    width: 350px;
+}
+.network img
+{
+  width:60px;
+  border-radius: 100%;
+  
+}
+.network img:hover
+{
+    filter: grayscale();
+    transform:scale(0.75);
+}
+.network
+{
+    display: flex;
+    gap: 15px;
+    margin-left: 19%;
+    padding-top: 20px;
+}
+.no-account
+{
+    font-weight: bol;
+    text-align: center;
+    font-size: 19px;
+}
+.information input
+{
+    box-shadow: black 1px 4px ;
+    width: 200px;
+    margin-left: 10.5%;
+}
+.information label
+{
+    padding-left: 17px;
+}
+.information1 input
+{
+    box-shadow: black 1px 4px ;
+    width: 200px;
+    margin-left: 4%;
+}
+.information1 label
+{
+    padding-left: 17px;
+}
+.mot-passe 
+{
+    text-align: center;
+    padding-top: 25px;
+}
+.mot-passe a
+{
+    text-decoration: none;
+    color: green;
+}
+.seconnecter
+{
+    border-radius: 15px;
+    border: 2px black solid;
+    height: 60px;
+    width: 250px;
+    margin: auto;
+    height: 45px;
+    background-color: black;
+    color: white;
+}
+.connecte
+{
+    margin: auto;
+    text-align: center;
+    padding-top:9px;
+    cursor: pointer;
+    font-weight: bold;
+
+    
+}
+.header
+{
+    display: flex;    
+    margin-left: 28.5%;
+    margin-right: 25%;
+    margin-top: 11%;
+}
+.right-side
+{
+    /* padding-left: 20px; */
+    border: 1px white solid;
+    border-radius: 5px;
+    box-shadow: black 1px 5px 1px 2px ;
+    height:400px ;
+    width: 350px;
+   background: linear-gradient(rgb(110, 203, 110),pink);
+    
+}
+.welcome
+
+{
+    padding-top: 130px;
+    font-size: 50px;
+    font-weight: bold;
+  
+    text-align: center;
+}
+.creer
+{
+    text-align: center;
+    font-weight: bold;
+}
+.create-account
+{
+    border: 1px black solid;
+    height: 60px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+.create
+{
+    text-align: center;
+    padding-top: 10px;
+}
+.seconnecter:hover
+{
+    background-color: gold;
+    color: black;
+    transform: translate(5px,5px);
+   transition:ease-in 1s;
+}
+.create-account:hover
+{
+    background-color: gold;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+  
+}
+.create-account:hover
+{
+    transition: ease-in 2s;
+}
+@media screen {
+    .header
+    {
+        min-width:75px;
+        max-width: 1000px;
+    }
+}
